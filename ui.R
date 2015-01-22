@@ -19,6 +19,8 @@ sidebarPanel(
 
 mainPanel(
 	h3('Here we go'),
+	p("Documentation: ", a("see here", 
+		href = "https://github.com/ClemensLink/CourseProject_DevDataProducts/blob/master/README.md")),
 	plotOutput('clePlot'),
 	
 	h4('Number of breaks entered:'),
